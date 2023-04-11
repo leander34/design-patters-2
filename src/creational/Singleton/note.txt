@@ -1,0 +1,11 @@
+- Garantiar que uma classe tenha somente uma instância no programa e fornecer um ponto de acesso global para a mesma.
+
+- Por que somente uma instância? Usado para acesso a recursos compartilhados
+- Usado para substituir variáveis globais, como em casos de uso de objetos de configuração do sistema como um todo.
+- Você pode permitir acesso global ao  Singleton em toda sua aplicação, assim como fazíamos (ou fazemos) com variáveis globais.
+
+- Normalmente privamos o construtor e instaciamos ou criamos a instância com métodos estáticos.
+
+- Somente uma instância disponível no programa
+- Use sigleton quando perceber que está usando variáveis globais, como variáveis de confirguração que são usadas por toda a aplicação.
+- lazy instatiation
