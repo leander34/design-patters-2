@@ -11,4 +11,5 @@ const anotherPerson = Object.create(personPrototype)
 anotherPerson.firstName = 'Joana'
 console.log(anotherPerson)
 console.log(anotherPerson.firstName)
-// console.log(personPrototype === Object.getPrototypeOf(anotherPerson))
+console.log(anotherPerson.age)
+console.log(personPrototype === Object.getPrototypeOf(anotherPerson))
